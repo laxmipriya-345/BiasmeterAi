@@ -3,20 +3,20 @@
 AI systems trained on historical or imbalanced data can unintentionally produce biased decisions, affecting outcomes in healthcare, recruitment, finance, education, and more. Most existing bias detection tools perform static evaluations before deployment, leaving deployed models vulnerable to evolving bias over time.
 BiasMeterAI solves this problem by providing continuous, real-time bias monitoring and actionable mitigation insights.
 
-✨ Key Features
-🔍 Bias Detection – Identifies unfair treatment across sensitive attributes (gender, age, race, region, etc.)
-📊 Fairness Metrics Calculation – Supports:
+ Key Features
+ Bias Detection – Identifies unfair treatment across sensitive attributes (gender, age, race, region, etc.)
+ Fairness Metrics Calculation – Supports:
 Demographic Parity
 Equal Opportunity
 Equalized Odds
 Predictive Parity
 
-📈 Real-Time Monitoring – Tracks bias before, during, and after deployment
-📉 Interactive Dashboard – Visualizes bias scores and group comparisons
-🛠 Bias Mitigation Suggestions – Recommends data balancing and model correction strategies
-📄 Automated Bias Report Generation
+ Real-Time Monitoring – Tracks bias before, during, and after deployment
+ Interactive Dashboard – Visualizes bias scores and group comparisons
+ Bias Mitigation Suggestions – Recommends data balancing and model correction strategies
+ Automated Bias Report Generation
 
-🏗️ System Architecture
+ System Architecture
 Data Input Layer – Dataset or trained model
 Sensitive Attribute Identification – Detects protected groups
 Fairness Evaluation Engine – Computes bias metrics
@@ -33,11 +33,11 @@ React (Frontend – Optional)
 Matplotlib / Plotly (Visualization)
 
 📌 Use Cases
-🏥 Healthcare Diagnosis Systems
-💼 Recruitment & Hiring Platforms
-💳 Loan Approval Systems
-🏫 Education Admission Systems
-🛡 Risk Assessment & Insurance Models
+ Healthcare Diagnosis Systems
+ Recruitment & Hiring Platforms
+ Loan Approval Systems
+ Education Admission Systems
+Risk Assessment & Insurance Models
 
 📊 Example Output
 Bias Score: 0.38 (Moderate Bias)
